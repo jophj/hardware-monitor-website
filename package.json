@@ -1,0 +1,27 @@
+{
+  "name": "hardware-monitor-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config mywebpack.config.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jophj/hardware-monitor-website.git"
+  },
+  "author": "Giovanni Pinto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jophj/hardware-monitor-website/issues"
+  },
+  "homepage": "https://github.com/jophj/hardware-monitor-website#readme"
+}
