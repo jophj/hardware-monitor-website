@@ -15,18 +15,20 @@
       <div class="top-spacing"></div>
       <div class="mdl-grid">
         <div class="mdl-cell mdl-cell--3-offset-desktop mdl-cell--3 mdl-cell--12-col-tablet">
-          <div class="mdl-typography--display-3"> Real time monitoring </div>
-          <div class="mdl-typography--headline"> Check your hardware status. Remotely. </div>
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-            Get server
-          </button>
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-            Get app
-          </button>
+          <div id="title" class="mdl-typography--display-3"> Real time monitoring </div>
+          <div id="headline" class="mdl-typography--headline"> Check your hardware status. Remotely. </div>
+          <div id="get-buttons-container">
+            <a id="get-server" href="https://s3.amazonaws.com/sentientapp/download/setup.zip" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+              Get server
+            </a>
+            <a id="get-app" target="_blank" href="https://play.google.com/store/apps/details?id=com.jop.hardwareMonitor" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+              Get app
+            </a>
+          </div>
         </div>
 
-        <div class="mdl-cell mdl-cell--3 mdl-cell--12-col-phone">
-          Phone pic
+        <div id="nexus-demo-container" class="mdl-cell mdl-cell--3 mdl-cell--12-col-tablet">
+          <img src="nexus_demo.png" class="nexus-5x">
         </div>
       </div>
     </main>
